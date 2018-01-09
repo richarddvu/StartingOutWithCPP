@@ -37,9 +37,8 @@ int main(){
       }while(input<0 ||input > 20);
       sum = sum + input;
   }
-  int total = suite - sum;
   double percentage = suite / sum;
-  cout << "Total number of suites occupied is: " << total << endl;
-  cout << "Total percentage of occupied suites is: " << setprecision(5) << percentage << endl;
+  cout << "Total number of suites occupied is: " << sum << endl;
+  cout << "Total percentage of occupied suites is: " << percentage << "%"<< endl;
   return 0;
 }
